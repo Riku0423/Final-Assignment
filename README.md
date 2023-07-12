@@ -277,11 +277,10 @@ plt.tight_layout()
 plt.show()
 
 
-
+# Calculate GDP
 def production_function(K, alpha):
     return K**alpha
 
-# Calculate GDP
 GDP = production_function(KK, param['alpha'])
 
 print("GDP:", GDP)
