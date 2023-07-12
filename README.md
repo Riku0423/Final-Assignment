@@ -276,3 +276,12 @@ plt.ylabel('% OF AGENTS')
 plt.tight_layout()
 plt.show()
 
+
+
+def production_function(K, alpha):
+    return K**alpha
+
+# Calculate GDP
+GDP = production_function(KK, param['alpha'])
+
+print("GDP:", GDP)
